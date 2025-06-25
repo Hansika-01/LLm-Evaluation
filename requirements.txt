@@ -1,0 +1,21 @@
+# Core Libraries
+streamlit
+streamlit-tree-select  # Added this line
+pandas
+numpy
+matplotlib
+seaborn
+evaluate
+nltk
+python-dotenv
+openai
+google-generativeai
+boto3
+scikit-learn
+sentence-transformers
+deepeval
+
+# Specific NLTK data required by the 'evaluate' library for METEOR
+# These are downloaded via nltk.download() in the code, but worth noting.
+# You might need to run these commands separately after installing 'nltk':
+# python -c "import nltk; nltk.download('wordnet'); nltk.download('punkt')"
